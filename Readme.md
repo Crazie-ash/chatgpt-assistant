@@ -42,10 +42,6 @@ This is a simple AI Voice Assistant built using Node.js and the ChatGPT OpenAI A
 - You can modify the AI model and TTS settings in the code.
 - The OpenAI API key is read from the `.env` file. Make sure to keep this file secure and never share your API key.
 
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
 ## Acknowledgements
 
 - This project utilizes the ChatGPT OpenAI API for generating AI responses.
