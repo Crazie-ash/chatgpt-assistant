@@ -1,0 +1,28 @@
+{
+  "name": "chatgpt-powered-assistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "ts-node -r dotenv/config src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "data-uri-to-buffer": "^5.0.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "gtts": "^0.2.1",
+    "langchain": "^0.0.95",
+    "multer": "^1.4.3",
+    "openai": "^3.2.1",
+    "socket.io": "^4.6.2",
+    "streamifier": "^0.1.1"
+  }
+}
